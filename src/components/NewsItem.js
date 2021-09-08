@@ -20,12 +20,12 @@ export class NewsItem extends Component {
             <h5 className='card-title'>
               {title}
               <div
-                style={
-                  ((display = 'flex'),
-                  (justifyContent = 'flex-end'),
-                  (position = 'absolute'),
-                  (right = '0'))
-                }
+                style={{
+                  display: 'flex',
+                  justifyContent: 'flex-end',
+                  position: 'absolute',
+                  right: '0',
+                }}
               >
                 <span class='badge rounded-pill bg-info'>{source}</span>
               </div>
